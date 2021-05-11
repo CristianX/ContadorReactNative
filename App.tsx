@@ -1,4 +1,5 @@
 import React from 'react';
+import { ContadorScreen } from './src/screens/ContadorScreen';
 import { HolaMundoScreen } from './src/screens/HolaMundoScreen';
 
 export const App = () => {
@@ -6,7 +7,11 @@ export const App = () => {
 
 
   return (
-    <HolaMundoScreen />
+
+    // <HolaMundoScreen />
+    <ContadorScreen />
+
+
     // <View style={{
     //   flex: 1,
     //   // backgroundColor: 'red',
